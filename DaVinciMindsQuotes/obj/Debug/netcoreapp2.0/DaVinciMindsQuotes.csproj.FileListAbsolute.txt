@@ -1,0 +1,12 @@
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\bin\Debug\netcoreapp2.0\DaVinciMindsQuotes.deps.json
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\bin\Debug\netcoreapp2.0\DaVinciMindsQuotes.runtimeconfig.json
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\bin\Debug\netcoreapp2.0\DaVinciMindsQuotes.runtimeconfig.dev.json
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\bin\Debug\netcoreapp2.0\DaVinciMindsQuotes.dll
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\bin\Debug\netcoreapp2.0\DaVinciMindsQuotes.pdb
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\obj\Debug\netcoreapp2.0\DaVinciMindsQuotes.csproj.CoreCompileInputs.cache
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\obj\Debug\netcoreapp2.0\DaVinciMindsQuotes.AssemblyInfoInputs.cache
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\obj\Debug\netcoreapp2.0\DaVinciMindsQuotes.AssemblyInfo.cs
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\obj\Debug\netcoreapp2.0\DaVinciMindsQuotes.dll
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\obj\Debug\netcoreapp2.0\DaVinciMindsQuotes.pdb
+D:\CODEHUB\DEVS\DaVinciMindsQuotes\DaVinciMindsQuotes\obj\Debug\netcoreapp2.0\DaVinciMindsQuotes.csprojResolveAssemblyReference.cache

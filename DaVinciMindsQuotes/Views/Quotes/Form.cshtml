@@ -1,0 +1,72 @@
+﻿@model DaVinciMindsQuotes.Models.QuotesViewModel
+@{
+    ViewData["Title"] = "Form";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Author</h2>
+
+@*<div id="app">*@
+    <div class="row">
+        <div class="col-lg-6">
+            @using (Html.BeginForm("Save", "Quotes"))
+            {
+                @Html.HiddenFor(m => m.Id)
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Quotation)
+                    @Html.TextBoxFor(m => m.Quotation, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Quotation)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.CategoryId)
+                    @Html.DropDownListFor(m => m.CategoryId, new SelectList(Model.Categories, "Id", "Name"), "Select Category", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.CategoryId)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.AuthorId)
+                    @Html.DropDownListFor(m => m.AuthorId, new SelectList(Model.Authors, "Id", "Name"), "Select Author", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.AuthorId)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.InterestingFacts)
+                    @Html.TextBoxFor(m => m.InterestingFacts, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.InterestingFacts)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Keywords)
+                    @Html.TextBoxFor(m => m.Keywords, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Keywords)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Notes)
+                    @Html.TextBoxFor(m => m.Notes, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Notes)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.SourceId)
+                    @Html.DropDownListFor(m => m.SourceId, new SelectList(Model.Sources, "Id", "Name"), "Select Source", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.SourceId)
+                </div>
+
+
+                <div class="btn-group">
+                    <button type="submit" class="btn btn-primary" style="width:80px">Save</button>
+                    <a asp-action="Index" class="btn btn-info" style="width:80px">Cancel</a>
+                </div>
+            }
+        </div>
+    </div>
+@*</div>
+
+@section Scripts {
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue JS'
+            }
+        })
+    </script>
+}*@
+

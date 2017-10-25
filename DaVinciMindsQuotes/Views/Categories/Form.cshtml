@@ -1,0 +1,28 @@
+﻿@model DaVinciMindsQuotes.Models.QuoteCategory
+@{
+    ViewData["Title"] = "Form";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Category</h2>
+
+<div class="row">
+    <div class="col-lg-6">
+        @using (Html.BeginForm("Save", "Categories"))
+        {
+            @Html.HiddenFor(m => m.Id)
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Name)
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Name)
+            </div>
+
+            <div class="btn-group">
+                <button type="submit" class="btn btn-primary" style="width:80px">Save</button>
+                <a asp-action="Index" class="btn btn-info" style="width:80px">Cancel</a>
+            </div>
+        }
+    </div>
+</div>
+
